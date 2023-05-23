@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import typeColor from "../data/typeColors.json"
 import TypePill from "../components/typePill";
 
-
 function Home({ pokemons }) {
   const elements = pokemons.map((pokemon) => {
     return (

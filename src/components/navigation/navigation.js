@@ -6,7 +6,7 @@ const Navigation = () => {
     <nav>
       <div className="container">
         <Link to="/">
-          <img src={logo} width="200px" />
+          <img src={logo} width="200px" alt="" />
         </Link>
       </div>
     </nav>

@@ -15,7 +15,50 @@ nav .container {
   justify-content: center;
 }
 
+.infos-pokemon {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.infos-pokemon h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.infos-pokemon .content {
+  display: flex;
+}
+
+.infos-pokemon .content-left {
+  flex: 1;
+}
+
+.infos-pokemon .content-left ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.infos-pokemon .content-left ul li {
+  margin-bottom: 10px;
+}
+
+.infos-pokemon .content-left ul li b {
+  font-weight: bold;
+}
+
+.infos-pokemon .content-right img {
+  max-width: 200px;
+  width: 200px;
+  height: auto;
+}
+
+.error {
+  text-align: center;
+}
+
 footer {
+  margin-top: 2rem;
   text-align: center;
   padding: 2rem;
   background-color: rgb(247, 247, 247);
