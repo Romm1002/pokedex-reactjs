@@ -1,0 +1,113 @@
+[
+    {
+      "id": 1,
+      "nom": "Bulbizarre",
+      "PV": 45,
+      "attaque": 49,
+      "defense": 49,
+      "attaque spe": 65,
+      "defense spe": 65,
+      "vitesse": 45,
+      "types": ["Plante", "Poison"]
+    },
+    {
+      "id": 2,
+      "nom": "Herbizarre",
+      "PV": 60,
+      "attaque": 62,
+      "defense": 63,
+      "attaque spe": 80,
+      "defense spe": 80,
+      "vitesse": 60,
+      "types": ["Plante", "Poison"]
+    },
+    {
+      "id": 3,
+      "nom": "Florizarre",
+      "PV": 80,
+      "attaque": 82,
+      "defense": 83,
+      "attaque spe": 100,
+      "defense spe": 100,
+      "vitesse": 80,
+      "types": ["Plante", "Poison"]
+    },
+    {
+      "id": 4,
+      "nom": "Salamèche",
+      "PV": 39,
+      "attaque": 52,
+      "defense": 43,
+      "attaque spe": 60,
+      "defense spe": 50,
+      "vitesse": 65,
+      "types": ["Feu"]
+    },
+    {
+      "id": 5,
+      "nom": "Reptincel",
+      "PV": 58,
+      "attaque": 64,
+      "defense": 58,
+      "attaque spe": 80,
+      "defense spe": 65,
+      "vitesse": 80,
+      "types": ["Feu"]
+    },
+    {
+      "id": 6,
+      "nom": "Dracaufeu",
+      "PV": 78,
+      "attaque": 84,
+      "defense": 78,
+      "attaque spe": 109,
+      "defense spe": 85,
+      "vitesse": 100,
+      "types": ["Feu", "Vol"]
+    },
+    {
+      "id": 7,
+      "nom": "Carapuce",
+      "PV": 44,
+      "attaque": 48,
+      "defense": 65,
+      "attaque spe": 50,
+      "defense spe": 64,
+      "vitesse": 43,
+      "types": ["Eau"]
+    },
+    {
+      "id": 8,
+      "nom": "Carabaffe",
+      "PV": 59,
+      "attaque": 63,
+      "defense": 80,
+      "attaque spe": 65,
+      "defense spe": 80,
+      "vitesse": 58,
+      "types": ["Eau"]
+    },
+    {
+      "id": 9,
+      "nom": "Tortank",
+      "PV": 79,
+      "attaque": 83,
+      "defense": 100,
+      "attaque spe": 85,
+      "defense spe": 105,
+      "vitesse": 78,
+      "types": ["Eau"]
+    },
+    {
+      "id": 10,
+      "nom": "Chenipan",
+      "PV": 45,
+      "attaque": 30,
+      "defense": 35,
+      "attaque spe": 20,
+      "defense spe": 20,
+      "vitesse": 45,
+      "types": ["Insecte"]
+    }
+  ]
+  
