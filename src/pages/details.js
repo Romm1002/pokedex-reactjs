@@ -12,7 +12,9 @@ function Details() {
 
   // Vérification si le Pokémon a été trouvé
   if (!pokemon) {
-    return <h1>Pokémon non trouvé</h1>;
+    return (
+      <h2 style={{ marginLeft: "10%" }}>Ce Pokémon n'existe pas</h2>
+    );
   }
 
   // Affichage des détails du Pokémon
