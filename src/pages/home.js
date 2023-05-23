@@ -1,28 +1,27 @@
 import React from "react";
 import "../assets/styles/style.css";
 import { Link } from "react-router-dom";
+import typeColor from "../data/typeColors.json"
+import TypePill from "../components/typePill";
 
 
 function Home({ pokemons }) {
   const elements = pokemons.map((pokemon) => {
     return (
-      <Link to={`/details/${pokemon.id}`} className="card">
+      <Link key={pokemon.id} to={`/details/${pokemon.id}`} className="card px-3 py-1 mb-5 me-3 col-lg-3 col-sm-4">
+        <img src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemon.id}.png`} className="card-img-top"></img>
         <h2>#{pokemon.id} - {pokemon.nom}</h2>
         <ul>
-          {pokemon.types.map((type) => (
-            <li>{type}</li>
-          ))}
+          {pokemon.types.map((type) => <TypePill key={type} type={type} color={typeColor[type]}/>)}
         </ul>
-        {/* <p>PV: {pokemon.PV}</p>
-        <p>Attaque: {pokemon.attaque}</p>
-        <p>Défense: {pokemon.defense}</p>
-        <p>Attaque Spé.: {pokemon.attaque_spe}</p>
-        <p>Défense Spé.: {pokemon.defense_spe}</p>
-        <p>Vitesse: {pokemon.vitesse}</p> */}
       </Link>
     );
   });
-  return <main className="container">{elements}</main>;
+  return <main className="container">
+    <div className="row justify-content-around">
+      {elements}
+    </div>
+  </main>;
 }
 
 export default Home;
