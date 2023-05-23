@@ -7,9 +7,9 @@ import TypePill from "../components/typePill";
 function Home({ pokemons }) {
   const elements = pokemons.map((pokemon) => {
     return (
-      <Link key={pokemon.id} to={`/details/${pokemon.id}`} className="card px-3 py-1 mb-5 me-3 col-lg-3 col-sm-4">
+      <Link key={pokemon.id} to={`/details/${pokemon.id}`} className="card px-3 py-1 mb-5 me-3 col-lg-2 col-sm-3 bg-light">
         <img src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemon.id}.png`} className="card-img-top"></img>
-        <h2>#{pokemon.id} - {pokemon.nom}</h2>
+        <h2 className="h4">#{pokemon.id} - {pokemon.nom}</h2>
         <ul>
           {pokemon.types.map((type) => <TypePill key={type} type={type} color={typeColor[type]}/>)}
         </ul>
