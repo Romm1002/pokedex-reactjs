@@ -8,6 +8,7 @@ function Details() {
   const { id } = useParams(); // Récupère l'ID de l'URL
 
   // Recherche du Pokémon correspondant à l'ID
+  // eslint-disable-next-line
   const pokemon = pokemons.find((p) => p.id == id);
 
   // Vérification si le Pokémon a été trouvé

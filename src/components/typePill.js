@@ -1,5 +1,5 @@
 const TypePill = ({ type, color }) => {
-  if (color == undefined) {
+  if (color === undefined) {
     color = "gray";
   }
   return (

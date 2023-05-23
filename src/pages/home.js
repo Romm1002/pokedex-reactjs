@@ -15,6 +15,7 @@ function Home({ pokemons }) {
         <img
           src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemon.id}.png`}
           className="card-img-top"
+          alt=""
         ></img>
         <h2 className="h4">
           #{pokemon.id} - {pokemon.nom}
