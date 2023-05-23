@@ -1,12 +1,8 @@
 import React from "react";
-import "../assets/styles/home.css";
+import "../assets/styles/style.css";
 
 function Details() {
-  return (
-    <>
-
-    </>
-  );
+  return <></>;
 }
 
 export default Details;
