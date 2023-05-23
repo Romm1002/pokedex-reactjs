@@ -2,12 +2,13 @@ import React from "react";
 import "../assets/styles/style.css";
 import { Link } from "react-router-dom";
 
-
 function Home({ pokemons }) {
   const elements = pokemons.map((pokemon) => {
     return (
       <Link to={`/details/${pokemon.id}`} className="card">
-        <h2>#{pokemon.id} - {pokemon.nom}</h2>
+        <h2>
+          #{pokemon.id} - {pokemon.nom}
+        </h2>
         <ul>
           {pokemon.types.map((type) => (
             <li>{type}</li>
