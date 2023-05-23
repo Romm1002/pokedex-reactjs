@@ -32,10 +32,10 @@ function Details() {
               <b>Défense :</b> {pokemon.defense}
             </li>
             <li>
-              <b>Attaque Spé :</b> {pokemon["attaque spe"]}
+              <b>Attaque Spé :</b> {pokemon.attaque_spe}
             </li>
             <li>
-              <b>Défense Spé :</b> {pokemon["defense spe"]}
+              <b>Défense Spé :</b> {pokemon.defense_spe}
             </li>
             <li>
               <b>Vitesse :</b> {pokemon.vitesse}
